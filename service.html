@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Laxmi Scaffolding</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/media.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/imagehover.css">
+    <style type="text/css">
+        h5 {
+            font-size: 1.28571429em;
+            font-weight: 700;
+            line-height: 1.2857em;
+            margin: 0;
+        }
+
+        .card {
+            font-size: 1em;
+            overflow: hidden;
+            padding: 0;
+            border: none;
+            border-radius: .28571429rem;
+            box-shadow: 0 0 15px 0px #999999;
+        }
+
+        .card-block {
+            font-size: 1em;
+            position: relative;
+            margin: 0;
+            padding: 1em;
+            border: none;
+            border-top: 1px solid rgba(34, 36, 38, .1);
+            box-shadow: none;
+        }
+
+        .card-img-top {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .card-title {
+            font-size: 1.28571429em;
+            font-weight: 700;
+            line-height: 1.2857em;
+        }
+
+        .card-text {
+            clear: both;
+            margin-top: .5em;
+            color: rgba(0, 0, 0, .68);
+        }
+
+        .card-footer {
+            font-size: 1em;
+            position: static;
+            top: 0;
+            left: 0;
+            max-width: 100%;
+            padding: .75em 1em;
+            color: rgba(0, 0, 0, .4);
+            border-top: 1px solid rgba(0, 0, 0, .05) !important;
+            background: #fff;
+        }
+
+        .card-inverse .btn {
+            border: 1px solid rgba(0, 0, 0, .05);
+        }
+
+        .profile {
+            position: absolute;
+            top: -12px;
+            display: inline-block;
+            overflow: hidden;
+            box-sizing: border-box;
+            width: 25px;
+            height: 25px;
+            margin: 0;
+            border: 1px solid #fff;
+            border-radius: 50%;
+        }
+
+        .profile-avatar {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+        }
+
+        .profile-inline {
+            position: relative;
+            top: 0;
+            display: inline-block;
+        }
+
+        .profile-inline~.card-title {
+            display: inline-block;
+            margin-left: 4px;
+            vertical-align: top;
+        }
+
+        .text-bold {
+            font-weight: 700;
+        }
+
+        .meta {
+            font-size: 1em;
+            color: rgba(0, 0, 0, .4);
+        }
+
+        .meta a {
+            text-decoration: none;
+            color: rgba(0, 0, 0, .4);
+        }
+
+        .meta a:hover {
+            color: rgba(0, 0, 0, .87);
+        }
+
+    </style>
+    <!-- <script src="../kit.fontawesome.com/9883f7a703.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <!-- Header Start -->
+    <header id="header" class="fixed-top">
+        <div class="mb-ds-b">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="lgo-mb-wdth"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+        </div>
+        <div class="header_menu mb-ds-n">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="logo1 float-left">
+                            <a href="index.html" class="scrollto"><img src="images/logo.png" alt="" class="img-fluid"></a>
+                        </div>
+                        <nav class="main-nav float-right d-none d-lg-block">
+
+                            <ul>
+                                <li class="active"><a href="index.html">Home</a></li>
+
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="service.html">Services</a></li>
+                                <li><a href="gallery.html">Gallery</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                            <div class="quote">
+                                <a href="#">Call Us</a>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+    <section id="inner_banner_main">
+        <div class="banner_overlay"></div>
+        <h2>Services</h2>
+    </section>
+    <div class="banner_bg_clr">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <ul>
+                        <li><a href="index.html">Home <i class="fa-solid fa-grip-lines-vertical"></i></a></li>
+                        <li><span>Services</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start our service -->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="product_hed">
+                        <h2>OUR PRODUCT SERVICES</h2>
+                        <p>we provide the best service in Mumbai (Maharashtra)</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s1.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Cuplock System</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                The main feature of Cuplock System is the method of connection horizontals to verticals in 1 single action without the use of nuts, bolts & wedges.
+
+                                The Horizontal locked in the Bottom Cup by hammering a Top Cup on it which in combination gives a very secure connection.
+                            </div>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s2.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Intermediate Transom</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                Intermediate Transom provides a safe mid-by suport for scaffold boards. They hold the Lodger in their jaw sections and prevent the central bending of The fabricated jaw section at each end is turned downwards to prevent dislocation. One end is provide with an integral locking device to prevent
+                            </div>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s3.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Cantilever Frame</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                The Cantilever Frame are used for supporting decking of fromwork beyond the edge of the slab. The end of the frames have ledger blades for locating them in the cup joint of the verticals and attached with U-Head Jacks for height adjustments
+                                Suitable for dimensions up to 1.3mtr. Also available in two other sizes for 1.0mtr. And 1.5mtr. lift
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s4.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Props</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                The prop can be used on all types of building construction or for any type of used where an adjustable load bearing member is required. The high tensile steel pin is located through a slot in the outer section & a hole on the inner section for coarse adjustment. The cast collar located below the pin gives fine adjustment for leveling & striking.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s5.png
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Trench Strut</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                The Trench Strut incorporates the same features as the adjustable prop. The standard had has square ends turned up for gripping timber trench support and is also ideal for use with trench sheeting and pilling
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s6.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Push Pull Props</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                Push Pull Props can be used on all types building construction or any type of use where an adjustable load bearing member is required.
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="row mb-5">
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s7.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Scaffolding Planks</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                Laxmi Scaffolding Planks are designed & manufactured keeping in mind the safety of the people working on the construction sites. These planks are highly durable, reliable & performance oriented.
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s8.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">H Frame Scaffolding</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                H Frame Scaffolding System is the one of the most versatile product of Steel Scaffolding System used in building constructions. The have multiple uses and support beams, slabs, staging of building, bridges, etc. H Frame Systems are light weighted and longer lasting.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s9.jpg
+">
+                        <div class="card-block">
+                            <h4 class="card-title">Adjustable Spans</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                Adjustable Spans are the most advanced telescopic centering systems available todey. It is basically used to support floor forms while laying slabs. This versatile eliminates vertical propping and permits free space beneath the spans
+                            </div>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s10.jpg">
+                        <div class="card-block">
+                            <h4 class="card-title">Scaffolding Jacks</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                Laxmi Scaffolding Jacks are manufactured from from M. S. Heavy Duty Pipes confirming to Standards. These jacks are designed for maximum load bearing & support.
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s11.jpg">
+                        <div class="card-block">
+                            <h4 class="card-title">SHUTTERING PLATES </h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                               Wall & Floor Forms are used for casting of floor slabs, RCC columns, Beam & Wall available in a different sizes.
+                            </div>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/product/s12.jpg">
+                        <div class="card-block">
+                            <h4 class="card-title">SCAFFOLDING TOWER / LADDERS</h4>
+                            <!-- <div class="meta">
+                            <a href="#">Friends</a>
+                        </div> -->
+                            <div class="card-text">
+                                Towers is used for all types of maintenance & repair works carried out indoors & outdoor.
+                            </div>
+                            <br>
+                            <br>
+                        </div>
+                        <div class="card-footer">
+                            <a href="">Call Us</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <p><a href="https://api.whatsapp.com/send?phone=9029133204" target="blank"><img src="images/whatsapp.png" class="whatsup"></a></p>
+
+
+
+
+
+
+
+    <!-- Footer Section start -->
+    <footer id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-sm-5">
+                    <div class="foot_hed">
+                        <h5>Contact Info</h5>
+                        <div class="foot_cont">
+
+                            <!--<div class="cont">
+                            <h6>Address :-</h6>
+                            <span>Gali No.01, Akash Building, Near Royal Hotel, Mumbra Shilphata Road, Mumbra, Thane</span>
+                        </div>-->
+                            <div class="cont">
+                                <h6>Address :-</h6>
+                                <span>A/205, Sonal Apartment, Cabin Road, Bhayandar East, Thane Mumbai (Maharashtra) - 401105</span><br>
+
+                            </div>
+                        </div>
+                        <div class="foot_cont">
+
+                            <div class="cont">
+                                <h6>Phone :-</h6>
+                                <span><a href="tel:+919029133204">9029133204</a> </span>
+                            </div>
+                        </div>
+                        <div class="foot_cont">
+
+                            <div class="cont">
+                                <h6>Email :-</h6>
+                                <span><a href="mailto:laxmiscaff@gmail.com">laxmiscaff@gmail.com</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-3">
+                    <div class="foot_hed">
+                        <h5>Navigation</h5>
+                        <div class="prod_lst">
+                            <ul>
+                                <li><a href="index.html"> Home</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="service.html"> Services</a></li>
+                                <li><a href="gallery.html"> Gallery</a></li>
+                                <li><a href="contact.html"> Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="foot_hed">
+                        <h5>Product Categories</h5>
+                        <div class="prod_lst">
+                            <ul>
+                                <li><a href="#"><i class="fas fa-caret-right"></i>Cuplock System</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i>Scaffolding Planks</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i>Trench Strut</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i>H Frame Scaffolding</a></li>
+                                <li><a href="#"><i class="fas fa-caret-right"></i>Adjustable Spans</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_copy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="copy_dtl">
+                            <p>© 2022 Laxmi Scaffolding. All Rights Reserved</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <div class="design">
+                            <p>Design by : <span><a href="#">Design by Digital Vision Technology Pvt Ltd Google Partner</a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+    <!-- Quick Button -->
+    <button class="open-button title blink_me" onclick="openForm()">Enquire Now</button>
+    <div class="form-popup" id="myForm">
+        <h5 class="text-center">Online Quote</h5>
+        <form class="form-container new-form cbform" name="cbform" id="contact_form" onsubmit="send_contact()" method="post" action="#">
+            <input type="email" name="email" placeholder="Enter Email - Id" id="mrova-contactform-input" required>
+            <input type="tel" name="number" pattern="[1-9]{1}[0-9]{9}" placeholder="Contact Number" maxlength="10" required="required" min="1111111111" max="9999999999" id="mrova-contactform-input" required>
+            <textarea name="comments" placeholder="Comments Or Queries" id="mrova-contactform-textarea" required></textarea>
+            <input type="submit" name="submit" value="Submit" id="mrova-sendbutton">
+            <input type="button" class="btn cancel" onclick="closeForm()" value="Close">
+        </form>
+    </div>
+    <!-- Quick End -->
+</body>
+<!-- Script Start -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+<script>
+    $(document).ready(function() {
+
+
+
+        $('.navbar-collapse a').on('click', function() {
+            $(".navbar-collapse").collapse('hide');
+        });
+    })
+
+</script>
+<script src="dist/js/lightbox.js"></script>
+
+</html>
